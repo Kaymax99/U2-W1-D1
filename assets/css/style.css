@@ -302,10 +302,16 @@ footer a {
     padding: 1em;
     width: 70%;
   }
-
-  aside div {
-    display: inline-block;
-    margin: 0 auto;
+  #related {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  aside div div {
     width: 33%;
   }
   footer {
